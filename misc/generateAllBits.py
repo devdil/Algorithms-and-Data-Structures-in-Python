@@ -7,10 +7,10 @@
 """
 def generate(items,n):
     """
-            @param items : the items to be permuated
-            @param n: the length of the string 
+            @param items list : the items to be permuted
+            @param n integer: the length of the string 
             
-            @return: prints all permuations of a string
+            @return: prints all permutations of a string
     
     """
     if n < 1:
