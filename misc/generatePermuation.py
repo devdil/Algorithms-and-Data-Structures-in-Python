@@ -4,24 +4,24 @@
 	Last Modified : 3rd January,2014
 	
 """
+def swap(string,index1,index2):
+	""""""
+	temp = string[index1]
+	string[index1] = string[index2]
+	string[index2] = temp
 
 def permute(string,start,end):
-	
+	""""""
 	if start == end:
 		print ''.join(string)
 		
 	else:
-		
-		for x in range(start,)
+		j = start
+		for x in range(j,end):
+			swap(string,start,x)
+			permute(string,start+1,end);
+			swap(string,start,x)
 	
-	
-	
-	
-	
-
-
-
-
 
 if __name__ == "__main__":
 	
